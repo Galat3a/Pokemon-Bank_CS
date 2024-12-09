@@ -35,23 +35,6 @@ GRANT ALL PRIVILEGES ON pokemon.* TO 'pokemon'@'localhost';
 FLUSH PRIVILEGES;
 ´´´
 
-## Estructura del Proyecto
-
-Pokemon-Bank_CS/
-├── database.sql          # Esquema de base de datos
-├── index.php            # Punto de entrada principal
-├── pokemon/             # Gestión de Pokemon
-│   ├── create.php      # Añadir nuevo Pokemon
-│   ├── edit.php        # Editar Pokemon
-│   ├── destroy.php     # Eliminar Pokemon 
-│   ├── index.php       # Listar Pokemon
-│   ├── show.php        # Ver detalles de Pokemon
-│   ├── store.php       # Guardar nuevo Pokemon
-│   └── update.php      # Actualizar Pokemon
-└── user/               # Gestión de usuarios
-    ├── login.php       # Login de usuario 
-    └── logout.php      # Logout de usuario
-
 ## Características de Seguridad
 
 Autenticación basada en sesiones
