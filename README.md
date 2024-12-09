@@ -37,7 +37,6 @@ FLUSH PRIVILEGES;
 
 ## Estructura del Proyecto
 
-´´´bash
 Pokemon-Bank_CS/
 ├── database.sql          # Esquema de base de datos
 ├── index.php            # Punto de entrada principal
@@ -52,7 +51,7 @@ Pokemon-Bank_CS/
 └── user/               # Gestión de usuarios
     ├── login.php       # Login de usuario 
     └── logout.php      # Logout de usuario
-´´´
+
 ## Características de Seguridad
 
 Autenticación basada en sesiones
